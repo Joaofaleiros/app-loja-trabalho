@@ -6,7 +6,8 @@
   "main": "app.js",
   "scripts": {
     "start": "node backend/app.js",
-    "dev": "nodemon backend/app.js"
+    "dev": "nodemon backend/app.js",
+    "seeder": "node backend/seed/seeder.js"
   },
   "author": "Joao Paulo",
   "license": "ISC",
