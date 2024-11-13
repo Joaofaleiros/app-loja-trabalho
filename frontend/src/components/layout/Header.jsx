@@ -1,4 +1,5 @@
 import React from "react";
+
 const Header = () => {
   return (
     <nav className="navbar row">
@@ -34,9 +35,10 @@ const Header = () => {
             Cart{" "}
           </span>
           <span className="ms-1" id="cart_count">
-            0 25
+            0
           </span>
         </a>
+
         <div className="ms-4 dropdown">
           <button
             className="btn dropdown-toggle text-white"
@@ -62,21 +64,24 @@ const Header = () => {
               {" "}
               Dashboard{" "}
             </a>
+
             <a className="dropdown-item" href="/me/orders">
               {" "}
               Orders{" "}
             </a>
+
             <a className="dropdown-item" href="/me/profile">
               {" "}
               Profile{" "}
             </a>
+
             <a className="dropdown-item text-danger" href="/">
               {" "}
               Logout{" "}
             </a>
-            26
           </div>
         </div>
+
         <a href="/login" className="btn ms-4" id="login_btn">
           {" "}
           Login{" "}
@@ -85,4 +90,5 @@ const Header = () => {
     </nav>
   );
 };
+
 export default Header;
